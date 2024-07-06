@@ -1,0 +1,4 @@
+*.csv
+
+
+01_intro_to_docker/ny_taxi_postgres_data/*
