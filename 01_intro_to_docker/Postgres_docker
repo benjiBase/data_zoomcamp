@@ -1,0 +1,21 @@
+#to run postgres in docker need its environment by using -e
+#mapping folder in host machine file system to folder in container 
+#use whatever version of postgres installed locally on ur machine postgres --version
+#for port use 5431:5432 to avoid conflict with local postgres
+#This maps port 5431 on the host to port 5432 inside the container.
+#PostgreSQL listens on port 5432 by default, so you need to map it a new port like 5431.
+docker run -it \
+    -e POSTGRES_USER="root" \
+    -e POSTGRES_PASSWORD="root" \
+    -e POSTGRES_DB="ny_taxi" \
+    -v pwd/ny_taxi_postgres_data:/var/lib/postgresql/data \
+    -p 5431:5432 \
+    postgres:16.3
+
+
+#pgcli -h localhost -p 5432 -u root -d ny_taxi
+#pgcli --help to view all commands
+# -h hostname -p port_no -u username -d database_name we set above
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+#Schema for table
+https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
