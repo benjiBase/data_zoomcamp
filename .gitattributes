@@ -1,3 +1,0 @@
-*.csv filter=lfs diff=lfs merge=lfs -text
-01_intro_to_docker/ny_taxi_postgres_data/base/** filter=lfs diff=lfs merge=lfs -text
-01_intro_to_docker/ny_taxi_postgres_data/* filter=lfs diff=lfs merge=lfs -text
