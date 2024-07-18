@@ -3,6 +3,11 @@
 # FROM base Docker image that we will build on 
 # image_name:version
 #docker run -it python:3.9.1 bash (run the container with bash terminal)
+
+#to run this use
+#docker build -t test:homework . (name_1:name_2) (build the image)
+#docker run -it test:pandas(name of image) [everything here is the args]
+
 FROM python:3.9.1
 
 RUN apt-get install wget

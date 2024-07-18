@@ -1,8 +1,10 @@
+
 ## Docker & SQL
 
 In this homework we'll prepare the environment 
-and practice with Docker and SQL
-
+and practice with Docker and SQL 
+ 
+[Original source for homework](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2024/01-docker-terraform/homework.md)
 
 ## Question 1. Knowing docker tags
 
@@ -30,8 +32,9 @@ Run docker with the python:3.9 image in an interactive mode and the entrypoint o
 Now check the python modules that are installed ( use ```pip list``` ). 
 
 What is version of the package *wheel* ?
-![alt text](image.png)
 Ans: 0.43.0
+![alt text](image.png)
+
 
 
 # Prepare Postgres
