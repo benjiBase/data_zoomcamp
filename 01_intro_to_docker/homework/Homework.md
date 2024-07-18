@@ -18,10 +18,10 @@ Do the same for "docker run".
 
 Which tag has the following text? - *Automatically remove the container when it exits* 
 
-- `--delete`
+- `--delete` 
 - `--rc`
 - `--rmc`
-- `--rm`
+- `--rm`(Answer)
 
 
 ## Question 2. Understanding docker first run 
@@ -30,11 +30,8 @@ Run docker with the python:3.9 image in an interactive mode and the entrypoint o
 Now check the python modules that are installed ( use ```pip list``` ). 
 
 What is version of the package *wheel* ?
-
-- 0.42.0
-- 1.0.0
-- 23.0.1
-- 58.1.0
+![alt text](image.png)
+Ans: 0.43.0
 
 
 # Prepare Postgres
