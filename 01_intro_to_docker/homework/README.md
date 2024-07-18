@@ -32,8 +32,9 @@ Run docker with the python:3.9 image in an interactive mode and the entrypoint o
 Now check the python modules that are installed ( use ```pip list``` ). 
 
 What is version of the package *wheel* ?
+
 Ans: 0.43.0
-[alt text](image.png)
+![alt text](image.png)
 
 
 
